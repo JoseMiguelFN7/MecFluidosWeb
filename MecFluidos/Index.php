@@ -18,7 +18,7 @@
     <hr class="line">
     <div class="titulo">
         <div class="audio-container">
-            <img id="audio-icon" src="/MecFluidos/imagenes/no-audio-icon.png" onclick="playAudio()"> <audio id="bg-music" src="/MecFluidos/musica/PlayMusic.wav" loop>
+            <img id="audio-icon" src="/MecFluidos/imagenes/no-audio-icon.png" onclick="playAudio()"> <audio id="bg-music" src="/MecFluidos/musica/wiiMusic.mp3" loop>
         </div>
         <h2 class="titulo-text">Lista de Contenidos</h2>
     </div>
