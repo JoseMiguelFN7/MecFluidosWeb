@@ -34,7 +34,8 @@ h2{
 }
 
 .PE-formula{
-    max-height: 150px;
+    height: 120px;
+    width: auto;
 }
 
 .leyenda-formula{
@@ -43,7 +44,8 @@ h2{
 }
 
 .relacionPE-densidad{
-    max-height: 600px;
+    height: 400px;
+    width: auto;
 }
 
 h3{
@@ -56,11 +58,13 @@ h3{
 }
 
 .imagen-procedimiento{
-    max-height: 250px;
+    height: 350px;
+    width: auto;
 }
 
 .enlaces-interes{
     text-align: center;
+    margin-bottom: 10px;
 }
 
 ol{

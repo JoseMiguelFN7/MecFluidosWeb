@@ -33,7 +33,7 @@ h2{
     justify-content: center;
 }
 
-.densidad-formula{
+.SG-formula{
     height: 100px;
     width: auto;
 }
@@ -49,13 +49,11 @@ h3{
 
 .ejercicio{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
 }
 
-.imagen-dibujo, .imagen-procedimiento{
-    height: 230px;
+.imagen-procedimiento{
+    height: 300px;
     width: auto;
 }
 
