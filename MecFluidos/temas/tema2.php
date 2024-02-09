@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mecanica de Fluidos</title>
     <link rel="stylesheet" href="/MecFluidos/Styles/header-tema.css">
-    <link rel="stylesheet" href="/MecFluidos/Styles/tema1.css">
+    <link rel="stylesheet" href="/MecFluidos/Styles/tema2.css">
 </head>
 <body>
     <header>
@@ -17,7 +17,7 @@
     </header>
     <hr>
     <div class="header-bottom">
-    <a class="tema-button" href="tema1.php">
+        <a class="tema-button" href="tema1.php">
             <div>tema 1</div><div class="tooltip">Densidad</div>
         </a>
         <a class="tema-button" href="tema2.php">
@@ -50,32 +50,33 @@
     </div>
     <hr class="line">
     <div class="info-tema">
-        <h2>Tema 1: Densidad.</h2>
+        <h2>Tema 2: Peso específico.</h2>
         <br>
-        <div class="texto">La densidad es una magnitud escalar referida a la cantidad de masa en un determinado volumen de una sustancia o un objeto sólido. En otras palabras, es la cantidad de masa por unidad de volumen de sustancia. Se denota por la letra griega ρ:</div>
-        <div class="formula-container"><img class="densidad-formula" src="/MecFluidos/imagenes/formula-densidad.png"></div>
+        <div class="texto">El peso específico es la relación existente entre el peso y el volumen que ocupa una sustancia en el espacio. En otras palabras, es la cantidad de peso por unidad de volumen de una sustancia. Se denota por la letra griega γ:</div>
+        <div class="formula-container"><img class="PE-formula" src="/MecFluidos/imagenes/formula-PE.png"></div>
         <div class="leyenda-formula">
             <ul>
-                <li><div class="texto">m: Masa [kg], [slug]</div></li>
+                <li><div class="texto">w: Peso [N], [Lb]</div></li>
                 <li><div class="texto">V: Volumen [m<sup>3</sup>], [pies<sup>3</sup>]</div></li>
-                <li><div class="texto">ρ: Densidad [kg/m<sup>3</sup>], [slug/pies<sup>3</sup>]</div></li>
+                <li><div class="texto">γ: Peso específico [N/m<sup>3</sup>], [Lb/pies<sup>3</sup>]</div></li>
             </ul>
         </div>
         <br>
+        <h3>Relación Peso específico-densidad (γ-ρ)</h3>
+        <div class="formula-container"><img class="relacionPE-densidad" src="/MecFluidos/imagenes/relacionPE-densidad.png"></div>
         <h3>Ejemplo:</h3>
-        <div class="texto">Un cubo sólido mide 6.00 m en cada lado y tiene una masa de 0.583 kg. ¿Cuál es su densidad en kg/m<sup>3</sup>?</div>
+        <div class="texto">Un recipiente posee una masa de 825 kg. Si el recipiente tiene un volumen de 0,917 m<sup>3</sup>. Calcule el peso específico y la densidad de la sustancia.</div>
         <br>
         <div class="ejercicio">
-            <img class="imagen-dibujo" src="/MecFluidos/imagenes/ejercicio-densidad1.jpg">
-            <img class="imagen-procedimiento" src="/MecFluidos/imagenes/ejercicio-densidad2.png">
+            <img class="imagen-procedimiento" src="/MecFluidos/imagenes/ejercicio-PE.png">
         </div>
-        <div class="texto"><b>Respuesta:</b> El cubo tiene una densidad de 0,0027 kg/m<sup>3</sup>.</div>
+        <div class="texto"><b>Respuesta:</b> La sustancia tiene un peso específico de 8828,79 N/m<sup>3</sup> y una densidad de 899,67 kg/m<sup>3</sup>.</div>
         <br>
         <h3 class="enlaces-interes">Enlaces de Interés</h3>
         <ol>
-            <li class="texto"><a href="https://concepto.de/densidad/" class="enlace">https://concepto.de/densidad/</a></li>
-            <li class="texto"><a href="https://www.todamateria.com/densidad/" class="enlace">https://www.todamateria.com/densidad/</a></li>
-            <li class="texto"><a href="https://quimiciencia3.blogspot.com/p/blog-page_10.html" class="enlace">https://quimiciencia3.blogspot.com/p/blog-page_10.html</a></li>
+            <li class="texto"><a href="https://concepto.de/peso-especifico/" class="enlace">https://concepto.de/peso-especifico/</a></li>
+            <li class="texto"><a href="https://www.fisimat.com.mx/densidad-y-peso-especifico/" class="enlace">https://www.fisimat.com.mx/densidad-y-peso-especifico/</a></li>
+            <li class="texto"><a href="https://www.ejemplode.com/37-fisica/4922-peso_especifico.html" class="enlace">https://www.ejemplode.com/37-fisica/4922-peso_especifico.html</a></li>
         </ol>
     </div>
     <script src="/MecFluidos/Scripts/play-music.js"></script>

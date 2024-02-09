@@ -10,10 +10,10 @@
 <body>
     <header>
         <div class="info">
-            <div class="materia">Mecánica de Fluidos</div>
+            <div class="materia"><a href="/MecFluidos/Index.php">Mecánica de Fluidos</a></div>
             <div class="autor">© Copyright José Ferreira. V-28.315.655</div>
         </div>
-        <div class="logo-container"><img src="/MecFluidos/imagenes/logounimar.jpg" class="logo-unimar"></div>
+        <div class="logo-container"><a href="https://portalunimar.unimar.edu.ve"><img src="/MecFluidos/imagenes/logounimar.jpg" class="logo-unimar"></a></div>
     </header>
     <hr class="line">
     <div class="titulo">
@@ -25,15 +25,15 @@
     <div class="list-container">
         <ol class="lista-contenidos">
             <a class="tema-link" href="/MecFluidos/temas/tema1.php"><li class="tema">Tema 1: Densidad.</li></a>
-            <a class="tema-link" href="/MecFluidos/temas/tema1.php"><li class="tema">Tema 6: Manómetro.</li></a>
-            <a class="tema-link" href="/MecFluidos/temas/tema1.php"><li class="tema">Tema 2: Peso específico.</li></a>
-            <a class="tema-link" href="/MecFluidos/temas/tema1.php"><li class="tema">Tema 7: Barómetro</li></a>
-            <a class="tema-link" href="/MecFluidos/temas/tema1.php"><li class="tema">Tema 3: Gravedad específica.</li></a>
-            <a class="tema-link" href="/MecFluidos/temas/tema1.php"><li class="tema">Tema 8: Superficie plana horizontal bajo líquido.</li></a>
-            <a class="tema-link" href="/MecFluidos/temas/tema1.php"><li class="tema">Tema 4: Presión.</li></a>
-            <a class="tema-link" href="/MecFluidos/temas/tema1.php"><li class="tema">Tema 9: Paredes rectangulares.</li></a>
-            <a class="tema-link" href="/MecFluidos/temas/tema1.php"><li class="tema">Tema 5: Viscosidad.</li></a>
-            <a class="tema-link" href="/MecFluidos/temas/tema1.php"><li class="tema">Tema 10: Áreas planas sumergidas general.</li></a>
+            <a class="tema-link" href="/MecFluidos/temas/tema6.php"><li class="tema">Tema 6: Manómetro.</li></a>
+            <a class="tema-link" href="/MecFluidos/temas/tema2.php"><li class="tema">Tema 2: Peso específico.</li></a>
+            <a class="tema-link" href="/MecFluidos/temas/tema7.php"><li class="tema">Tema 7: Barómetro.</li></a>
+            <a class="tema-link" href="/MecFluidos/temas/tema3.php"><li class="tema">Tema 3: Gravedad específica.</li></a>
+            <a class="tema-link" href="/MecFluidos/temas/tema8.php"><li class="tema">Tema 8: Superficie plana horizontal bajo líquido.</li></a>
+            <a class="tema-link" href="/MecFluidos/temas/tema4.php"><li class="tema">Tema 4: Presión.</li></a>
+            <a class="tema-link" href="/MecFluidos/temas/tema9.php"><li class="tema">Tema 9: Paredes rectangulares.</li></a>
+            <a class="tema-link" href="/MecFluidos/temas/tema5.php"><li class="tema">Tema 5: Viscosidad.</li></a>
+            <a class="tema-link" href="/MecFluidos/temas/tema10.php"><li class="tema">Tema 10: Áreas planas sumergidas general.</li></a>
         </ol>
     </div>
     <div class="contador-container"><div class="contador">Número de visitas: <b class="visit-number"><?php include 'Scripts/contador.php';?></b></div></div>

@@ -13,12 +13,11 @@ header{
 }
 
 hr{
-    position: sticky;
-    top: 0px;
     height:2px;
     border-width:0;
     color:black;
     background-color:black;
+    z-index: 2;
 }
 
 .logo-container{
@@ -69,11 +68,16 @@ hr{
     justify-content:space-evenly;
     font-family: Bebas Neue, Arial;
     position: sticky;
-    top: 2px;
+    top: 0px;
     z-index: 1;
 }
 
 a{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
     color: black;
 }
 
@@ -99,8 +103,8 @@ a{
     display: flex;
     position: absolute;
     opacity: 0;
+    bottom: 0px;
     transition: 0.2s;
-    bottom: -45px;
     justify-content: center;
     background-color: gray;
     color: white;
@@ -110,10 +114,12 @@ a{
     border-radius: 10px;
     font-family: Poppins, Arial;
     font-size: 17px;
+    pointer-events: none;
 }
 
 .tema-button:hover .tooltip{
     opacity: 1;
+    bottom: -45px;
 }
 
 #T10{
@@ -121,5 +127,6 @@ a{
 }
 
 .line{
-    top: 41px;
+    position: sticky;
+    top: 39px;
 }
