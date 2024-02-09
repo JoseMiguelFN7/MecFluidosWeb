@@ -10,6 +10,7 @@ header{
     left: 0px;
     background-color: white;
     padding: 10px 20px;
+    z-index: 1;
 }
 
 .logo-container{
@@ -44,4 +45,5 @@ header{
     border-width:0;
     color:black;
     background-color:black;
+    z-index: 1;
 }

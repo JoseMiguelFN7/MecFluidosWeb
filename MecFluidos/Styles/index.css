@@ -18,8 +18,19 @@ body{
     background-color: white;
     padding: 5px;
     margin-top: 20px;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
+    position: relative;
+}
+
+.audio-container{
+    position: absolute;
+    padding-left: 30px;
+}
+
+#audio-icon{
+    height: 60px;
+    width: 100%;
 }
 
 ol{

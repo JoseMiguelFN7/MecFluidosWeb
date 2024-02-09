@@ -6,11 +6,6 @@
     <title>Mecanica de Fluidos</title>
     <link rel="stylesheet" href="/MecFluidos/Styles/Index.css">
     <link rel="stylesheet" href="/MecFluidos/Styles/Header.css">
-    <audio id="bg-music" src="/MecFluidos/musica/FF7Songs.mp3"><script>
-        const audio = document.getElementById('bg-music');
-        audio.loop = true;
-        audio.play();
-    </script></audio>
 </head>
 <body>
     <header>
@@ -21,7 +16,12 @@
         <div class="logo-container"><img src="/MecFluidos/imagenes/logounimar.jpg" class="logo-unimar"></div>
     </header>
     <hr class="line">
-    <div class="titulo">Lista de Contenidos</div>
+    <div class="titulo">
+        <div class="audio-container">
+            <img id="audio-icon" src="/MecFluidos/imagenes/no-audio-icon.png" onclick="playAudio()"> <audio id="bg-music" src="/MecFluidos/musica/PlayMusic.wav" loop>
+        </div>
+        <h2 class="titulo-text">Lista de Contenidos</h2>
+    </div>
     <div class="list-container">
         <ol class="lista-contenidos">
             <a class="tema-link" href="/MecFluidos/temas/tema1.php"><li class="tema">Tema 1: Densidad.</li></a>
@@ -39,5 +39,6 @@
     <div class="contador-container"><div class="contador">Número de visitas: <b class="visit-number"><?php include 'Scripts/contador.php';?></b></div></div>
     <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/_lMbKpYXQUw?si=cuAidst2QsOgIaCv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
     <div class="pie-pagina">En esta página podrá conseguir información referente a distintos contenidos de la materia Mecánica de fluidos vistos hasta ahora: definiciones, fórmulas, ejercicios resueltos, entre otros.</div>
-    </body>
+    <script src="/MecFluidos/Scripts/play-music.js"></script>
+</body>
 </html>
