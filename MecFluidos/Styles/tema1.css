@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+
+* {
+    Margin : 0;
+    Padding :0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/MecFluidos/imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Poppins, Arial;
+}
+
+.info-tema{
+    background-color: white;
+    margin: 20px 30px;
+    padding: 10px 30px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.texto{
+    font-size: 25px;
+}
+
+.formula-container{
+    display: flex;
+    justify-content: center;
+}
+
+.densidad-formula{
+    max-height: 150px;
+}
+
+.leyenda-formula{
+    display: flex;
+    justify-content: center;
+}
+
+h3{
+    font-size: 30px;
+}
+
+.ejercicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imagen-dibujo{
+    max-height: 400px
+}
+
+.imagen-procedimiento{
+    max-height: 250px;
+}
+
+.enlaces-interes{
+    text-align: center;
+}
+
+ol{
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+.enlace{
+    transition: 0.2s;
+}
+
+.enlace:hover{
+    color: #0b0b64;
+}
