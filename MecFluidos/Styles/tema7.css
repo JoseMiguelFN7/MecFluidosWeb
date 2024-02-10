@@ -28,21 +28,6 @@ h2{
     font-size: 25px;
 }
 
-.formula-container{
-    display: flex;
-    justify-content: center;
-}
-
-.densidad-formula{
-    height: 100px;
-    width: auto;
-}
-
-.leyenda-formula{
-    display: flex;
-    justify-content: center;
-}
-
 h3{
     font-size: 30px;
 }
@@ -50,14 +35,17 @@ h3{
 .ejercicio{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
-.imagen-dibujo, .imagen-procedimiento{
-    height: 230px;
+.imagen-dibujo, .imagen-procedimiento1{
+    height: 350px;
     width: auto;
+}
+
+.imagen-procedimiento1{
+    padding-left: 40px;
 }
 
 .enlaces-interes{
