@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mecanica de Fluidos</title>
+    <title>Mecánica de Fluidos</title>
+    <link rel="icon" type="image/x-icon" href="/MecFluidos/imagenes/unimar-icono.ico">
     <link rel="stylesheet" href="/MecFluidos/Styles/header-tema.css">
     <link rel="stylesheet" href="/MecFluidos/Styles/tema3.css">
 </head>
