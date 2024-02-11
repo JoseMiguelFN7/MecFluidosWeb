@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+
+* {
+    Margin : 0;
+    Padding :0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/MecFluidos/imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Poppins, Arial;
+}
+
+.titulo{
+    background-color: white;
+    padding: 5px;
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.audio-container{
+    position: absolute;
+    padding-left: 30px;
+}
+
+#audio-icon{
+    height: 60px;
+    width: 100%;
+}
+
+ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.list-container{
+    display: flex;
+    justify-content: center;
+}
+
+.lista-contenidos{
+    margin-top: 20px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tema{
+    padding: 10px 10px;
+    color: black;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    word-wrap: normal;
+    font-size: 30px;
+    height: 100%;
+    max-width: 500px;
+    transition: 0.2s;
+}
+
+.tema:hover{
+    background-color: rgb(214, 214, 214);
+    color: #0b0b64;
+}
+
+.contador-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contador{
+    background-color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.visit-number{
+    color: #0b0b64;
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.pie-pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    word-wrap: normal;
+    font-size: 25px;
+    padding: 10px;
+}

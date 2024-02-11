@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+
+header{
+    font-family: Bebas Neue, Arial;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: white;
+    padding: 10px 20px;
+    z-index: 1;
+}
+
+a:visited{
+    color: black;
+}
+
+.logo-container{
+    display: flex;
+    justify-content: right;
+    padding-right: 60px;
+}
+
+.logo-unimar{
+    height: 110px;
+}
+
+.info{
+    display: flex;
+    padding-left: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.materia{
+    font-size: 60px;
+}
+
+.autor{
+    font-size: 25px;
+}
+
+.line{
+    position: sticky;
+    top: 135px;
+    height:2px;
+    border-width:0;
+    color:black;
+    background-color:black;
+    z-index: 1;
+}
