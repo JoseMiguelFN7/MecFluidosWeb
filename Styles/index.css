@@ -33,6 +33,12 @@ body{
     width: 100%;
 }
 
+.contador-container{
+    position: absolute;
+    right: 60px;
+    top: 50px;
+}
+
 ol{
     list-style: none;
 }
@@ -68,25 +74,6 @@ a{
 
 .tema:hover{
     background-color: rgb(214, 214, 214);
-    color: #0b0b64;
-}
-
-.contador-container{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contador{
-    background-color: white;
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 10px;
-    font-size: 20px;
-}
-
-.visit-number{
     color: #0b0b64;
 }
 
