@@ -1,4 +1,5 @@
-<?php
+    <?php
+
     // Ruta del archivo JSON
     $rutaArchivo = './Scripts/visitas.json';
 
@@ -19,5 +20,6 @@
     // Escribir los datos actualizados en el archivo JSON
     file_put_contents($rutaArchivo, $datosActualizados);
 
-    echo $visitas;
     ?>
+
+
